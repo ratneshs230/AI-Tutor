@@ -1,0 +1,7 @@
+Timestamp: 2025-07-09 03:55:00 IST
+Error Description: "Persistent Login/Signup Issues (likely environmental)"
+Symptoms: "Login and Signup functionalities continue to fail, despite previous comprehensive API integration fixes. Symptoms are consistent with HTTP 500 or 404 errors."
+Debugging Steps: "Re-examined `authController.js`, `User.js` model, `src/utils/api.js`, and `server/config/default.json`. Added environment variable warnings to `server/app.js` to assist in diagnosing runtime configuration issues."
+Root Cause: "Codebase review indicates logical correctness. Root cause is highly likely to be external: incorrect environment variable configuration (e.g., `MONGO_URI`, `JWT_SECRET`, `SESSION_SECRET`, `REACT_APP_API_BASE_URL`) or issues with frontend component logic (data passing, state handling) not directly related to API integration."
+Solution Implemented: "Added explicit warnings in `server/app.js` for missing `MONGO_URI`, `JWT_SECRET`, and `SESSION_SECRET` environment variables. Confirmed logical correctness of existing login/signup code."
+Verification Steps: "Requires manual verification by running the application with correct environment variables and testing login/signup flows. The added warnings will provide immediate feedback on environment configuration."

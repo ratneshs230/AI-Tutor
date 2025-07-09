@@ -1,0 +1,133 @@
+{
+    "id": "/subscriptions/42335fb0-35d5-4865-afb6-c373220ab671/resourceGroups/ai-tutor-rg/providers/Microsoft.DocumentDB/databaseAccounts/aitutordb",
+    "name": "aitutordb",
+    "location": "Southeast Asia",
+    "type": "Microsoft.DocumentDB/databaseAccounts",
+    "kind": "MongoDB",
+    "tags": {
+        "defaultExperience": "Azure Cosmos DB for MongoDB API",
+        "hidden-workload-type": "Development/Testing",
+        "hidden-cosmos-mmspecial": ""
+    },
+    "systemData": {
+        "createdAt": "2025-07-07T15:03:28.3694471Z"
+    },
+    "properties": {
+        "provisioningState": "Succeeded",
+        "documentEndpoint": "https://aitutordb.documents.azure.com:443/",
+        "sqlEndpoint": "https://aitutordb.documents.azure.com:443/",
+        "mongoEndpoint": "https://aitutordb.mongo.cosmos.azure.com:443/",
+        "publicNetworkAccess": "Enabled",
+        "enableAutomaticFailover": true,
+        "enableMultipleWriteLocations": false,
+        "enablePartitionKeyMonitor": false,
+        "isVirtualNetworkFilterEnabled": false,
+        "virtualNetworkRules": [],
+        "EnabledApiTypes": "MongoDB",
+        "disableKeyBasedMetadataWriteAccess": false,
+        "enableFreeTier": false,
+        "enableAnalyticalStorage": false,
+        "analyticalStorageConfiguration": {
+            "schemaType": "FullFidelity"
+        },
+        "instanceId": "9c62d69a-f936-41c2-97cb-041b21c3f65e",
+        "databaseAccountOfferType": "Standard",
+        "defaultIdentity": "FirstPartyIdentity",
+        "networkAclBypass": "None",
+        "disableLocalAuth": false,
+        "enablePartitionMerge": false,
+        "enableBurstCapacity": false,
+        "minimalTlsVersion": "Tls12",
+        "consistencyPolicy": {
+            "defaultConsistencyLevel": "Session",
+            "maxIntervalInSeconds": 5,
+            "maxStalenessPrefix": 100
+        },
+        "apiProperties": {
+            "serverVersion": "7.0"
+        },
+        "configurationOverrides": {
+            "EnableBsonSchema": "True"
+        },
+        "writeLocations": [
+            {
+                "id": "aitutordb-southeastasia",
+                "locationName": "Southeast Asia",
+                "documentEndpoint": "https://aitutordb-southeastasia.documents.azure.com:443/",
+                "provisioningState": "Succeeded",
+                "failoverPriority": 0,
+                "isZoneRedundant": false
+            }
+        ],
+        "readLocations": [
+            {
+                "id": "aitutordb-southeastasia",
+                "locationName": "Southeast Asia",
+                "documentEndpoint": "https://aitutordb-southeastasia.documents.azure.com:443/",
+                "provisioningState": "Succeeded",
+                "failoverPriority": 0,
+                "isZoneRedundant": false
+            }
+        ],
+        "locations": [
+            {
+                "id": "aitutordb-southeastasia",
+                "locationName": "Southeast Asia",
+                "documentEndpoint": "https://aitutordb-southeastasia.documents.azure.com:443/",
+                "provisioningState": "Succeeded",
+                "failoverPriority": 0,
+                "isZoneRedundant": false
+            }
+        ],
+        "failoverPolicies": [
+            {
+                "id": "aitutordb-southeastasia",
+                "locationName": "Southeast Asia",
+                "failoverPriority": 0
+            }
+        ],
+        "cors": [],
+        "capabilities": [
+            {
+                "name": "EnableMongo"
+            },
+            {
+                "name": "EnableServerless"
+            }
+        ],
+        "ipRules": [],
+        "backupPolicy": {
+            "type": "Periodic",
+            "periodicModeProperties": {
+                "backupIntervalInMinutes": 240,
+                "backupRetentionIntervalInHours": 8,
+                "backupStorageRedundancy": "Geo"
+            }
+        },
+        "networkAclBypassResourceIds": [],
+        "diagnosticLogSettings": {
+            "enableFullTextQuery": "None"
+        },
+        "capacity": {
+            "totalThroughputLimit": 4000
+        },
+        "keysMetadata": {
+            "primaryMasterKey": {
+                "generationTime": "2025-07-07T15:03:28.3694471Z"
+            },
+            "secondaryMasterKey": {
+                "generationTime": "2025-07-07T15:03:28.3694471Z"
+            },
+            "primaryReadonlyMasterKey": {
+                "generationTime": "2025-07-07T15:03:28.3694471Z"
+            },
+            "secondaryReadonlyMasterKey": {
+                "generationTime": "2025-07-07T15:03:28.3694471Z"
+            }
+        }
+    },
+    "identity": {
+        "type": "None"
+    },
+    "apiVersion": "2023-03-01-preview"
+}

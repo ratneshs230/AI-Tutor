@@ -1,0 +1,11 @@
+import React from 'react';
+
+const PlayGamesPage = () => {
+  return (
+    <div className="flex items-center justify-center min-h-screen bg-background-color text-text-color">
+      <h1 className="text-3xl font-bold text-gray-800">Play Games Page Under Construction</h1>
+    </div>
+  );
+};
+
+export default PlayGamesPage;

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+This file is intentionally minimal.
+Global CSS variables are defined in public/index.html.
+Base styles for HTML elements are handled by Tailwind's preflight and utility classes.
+Custom components and their styles should primarily use Tailwind utility classes.
+*/

@@ -1,0 +1,30 @@
+{
+    "id": "/subscriptions/42335fb0-35d5-4865-afb6-c373220ab671/resourceGroups/ai-tutor-rg/providers/Microsoft.KeyVault/vaults/aitutor-keyvault-123",
+    "name": "aitutor-keyvault-123",
+    "type": "Microsoft.KeyVault/vaults",
+    "location": "centralindia",
+    "tags": {},
+    "properties": {
+        "sku": {
+            "family": "A",
+            "name": "Standard"
+        },
+        "tenantId": "e2603eaf-2982-40ad-8ef0-8bf42ecde906",
+        "networkAcls": {
+            "bypass": "None",
+            "defaultAction": "Allow",
+            "ipRules": [],
+            "virtualNetworkRules": []
+        },
+        "accessPolicies": [],
+        "enabledForDeployment": false,
+        "enabledForDiskEncryption": false,
+        "enabledForTemplateDeployment": false,
+        "enableSoftDelete": true,
+        "softDeleteRetentionInDays": 90,
+        "enableRbacAuthorization": true,
+        "vaultUri": "https://aitutor-keyvault-123.vault.azure.net/",
+        "provisioningState": "Succeeded"
+    },
+    "apiVersion": "2016-10-01"
+}
