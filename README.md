@@ -1,6 +1,6 @@
-# AI Tutor Application
+  # AI Tutor Application
 
-This is an AI-powered learning experience application. More details will be added here as the project progresses.
+  This is an AI-powered learning experience application. More details will be added here as the project progresses.
 
 ## Azure Deployment Guide
 
